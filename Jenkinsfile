@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Nodstan/Calculator.git'
+                git branch: 'main', url: 'https://github.com/heistheonlydre/Calculator.git'
             }
         }
 
